@@ -1,0 +1,11 @@
+[
+    {
+        "text": "\\define toolmap(word)\n\\rules except wikilink\n<$wikify name=\"input\" text=\"https://dynalist.io/d/zUP-nIWu2FFoXH-oM7L7d9DM#q=$word$\">\n<a href=<<input>> target=\"_blank\">$word$</a>\n</$wikify>\n\\end\n\nSearch in Tiddlywiki Toolmap: \n<$edit-text  tiddler=\"$:/temp/search-toolmap\" field=\"keywords\" placeholder=\"search toolmap\"/>\n\n<$macrocall $name=\"toolmap\" word={{$:/temp/search-toolmap!!keywords}} />",
+        "creator": "Mohammad",
+        "modifier": "Mohammad",
+        "created": "20190119043257485",
+        "modified": "20190119044817549",
+        "tags": "tools",
+        "title": "Search Tiddlywiki Toolmap"
+    }
+]
