@@ -1,2 +1,2 @@
-# EQEmuPlayers_TiddlyWiki
-TiddlyWiki for EQEmu player information on the game.
+# WarAngel's_TiddlyWikis
+WarAngel's TiddlyWiki Files for various topics (EQEmu, Video Games, etc.)
